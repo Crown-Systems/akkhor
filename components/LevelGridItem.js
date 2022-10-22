@@ -1,10 +1,10 @@
 import React from "react";
-import { StyleSheet, View, Image } from "react-native";
+import { Image, StyleSheet, View } from "react-native";
 import { backendUrl } from "../constants/Environment.js";
 
 var styles = StyleSheet.create({
   item: {
-    margin: 5,
+    margin: 6,
     width: 110,
     height: 140,
     shadowColor: "#000",
